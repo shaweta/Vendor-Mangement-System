@@ -102,6 +102,6 @@ Brief explanation of endpoints:
 | Vendor Performance                                                                                     | GET        | http://127.0.0.1:8000/api/vendors/{int:id}/performance   |Token Auth    |                        |
 | 
 
-
+You can use  VSCode thunder client or postman to interact with the apis and to get access of apiyou need to give Token in Header 
 
 
