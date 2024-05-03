@@ -53,7 +53,7 @@ Here  token authentication is applied so when testing with postman or thunder cl
 
 
 
-While working with api in browser, you can login using `http://127.0.0.1:8000/api-auth/` link.
+While working with api in browser, you can login using `http://127.0.0.1:8000/api/` link.
 
 
 ## API
