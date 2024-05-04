@@ -26,7 +26,7 @@ class VendorViewSet(viewsets.ModelViewSet):
     def performance(self, request, pk=None):
         vendor = self.get_object()
         serializer = PerformanceSerializer(vendor)
-        return Response(serializer.data)
+        return Response(serializer.data)                               
 
 class PurchaseOrderViewSet(viewsets.ModelViewSet):
     authentication_classes=[TokenAuthentication]
