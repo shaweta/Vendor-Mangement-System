@@ -100,8 +100,36 @@ Brief explanation of endpoints:
 | Deletes the existing Purchase orders                                                                   | DELETE     | http://127.0.0.1:8000/api/purchase_orders/{int:id}/     | Token Auth    |                                           |
 | Update Acknowledement  in purchase orders                                                              | POST       | http://127.0.0.1:8000/api/purchase_orders/{int:id}/acknowledge/| Token Auth |                                           |
 | Vendor Performance                                                                                     | GET        | http://127.0.0.1:8000/api/vendors/{int:id}/performance   |Token Auth    |                        |
-| 
-
+ 
 You can use  VSCode thunder client or postman to interact with the apis and to get access of apiyou need to give Token in Header 
+Adding Pictures of my Tests using thunderclient
 
+## Vendor list -Get Request(withoutAuthenication)
 
+![vendor_list_without](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/bc3a9598-6b13-4b3c-8de3-f2905190e3ce)
+## Vendor list -Get Request(with Authenication)
+![vendor_list_with](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/777d443f-2231-4798-a638-d4af7178c626)
+
+## Vendor create -POST Request(with Authenication)
+![create_vendor](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/92fa8798-70b3-4ac6-90eb-7c641a6bd8c1)
+
+## Vendor instance -Get Request(with Authenication)
+![vendor instance](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/8b275f18-79e0-4c3c-8966-9220ba01b89f)
+
+## Vendor performance -Get Request(with Authenication)
+![vendor_performance](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/c9054072-8a54-4ff4-b5a1-52a919c7e59f)
+## Vendor -PUT Request(with Authenication)
+![vendor instance_put](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/69823430-0aae-4bc3-8c6e-4c3b78a24897)
+
+## Vendor delete -Get Request(with Authenication)
+![vendor delete](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/2568acdd-d494-4239-8bfd-e1104841b48b)
+
+## Purchase Order -Get Request(with Authenication)
+![po_list](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/184b9c34-368e-40bd-9459-514180e78387)
+
+## Purchase Order Instance -Get Request(with Authenication)
+![po_instance](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/ba48acfe-0912-42f9-b688-b0b38f9c85b8)
+## Add Acknowledgement -POST Request(with Authenication)
+![add_ack](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/8d941b80-f9c1-471f-a4c4-7f76e0ff4434)
+## After Acknowlegement added
+![after_ack](https://github.com/shaweta/Vendor-Mangement-System/assets/17871651/85ac0e49-8c5e-4e2f-8005-cdaf6286b711)
