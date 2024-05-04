@@ -16,8 +16,8 @@ from rest_framework.authtoken.models import Token
 #     Token.objects.get_or_create(user=user)
 
 class VendorViewSet(viewsets.ModelViewSet):
-    # authentication_classes=[TokenAuthentication]
-    # permission_classes = [permissions.IsAuthenticated]
+    authentication_classes=[TokenAuthentication]
+    permission_classes = [permissions.IsAuthenticated]
     queryset = Vendor.objects.all()
     serializer_class = VendorSerializer
    
@@ -29,6 +29,8 @@ class VendorViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 class PurchaseOrderViewSet(viewsets.ModelViewSet):
+    authentication_classes=[TokenAuthentication]
+    permission_classes = [permissions.IsAuthenticated]
     queryset = PurchaseOrder.objects.all()
     serializer_class = PurchaseOrderSerializer
 
